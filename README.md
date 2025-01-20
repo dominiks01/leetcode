@@ -1,0 +1,10 @@
+## Leetcode problems 
+
+| LeetCode | Code | Description | Solution | Code | 
+| -------- | ---- | ---- | ---------- | --- |
+| [3sum-closest](https://leetcode.com/problems/3sum-closest/description/) | 16 |Find Three intigers in `array` such that the sum is colosest to `target` | [C](./16/main.c) | Iterating over array + Two Pointers O(N<sup>2</sup>) | 
+| [4sum](https://leetcode.com/problems/4sum/description/) | 18 | Find all the unique quadruplets `nums[a]`, `nums[b]`, `nums[c]`, `nums[d]` such that `nums[a] + nums[b] + nums[c] + nums[d] == target` |  [C](./18/main.c) |Double-loop over array + Two Pointers O(N<sup>3</sup>) |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 24 |Given a linked list, swap every two adjacent nodes and return its head. | [C](./24/main.c) |Simple Linked List Swap|
+| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 29 |Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.| [C](./29/main.c) |Bit Manipulation O(log(a)) Time and O(1) Space |
+| [Min Stack](https://leetcode.com/problems/min-stack/description/) | 155 |Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.| [C++](./155/main.cpp) | State Encoding. Each new min-val is encoded as: `2 * new-min-value - min-val`, and retrived in same way: `pop()` -> `if(stack.top() < min-value)` -> `min-val = 2 * min-val - stack.top()` |
+| [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/) | 407 | Given an `m x n` integer matrix heightMap representing the height of each unit cell in a `2D` elevation map, return the volume of water it can trap after raining | [C++](./407/main.cpp) | MinHeap, water bounded with min values. |
