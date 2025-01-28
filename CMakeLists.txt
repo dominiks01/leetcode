@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.15...3.31)
 set(CMAKE_C_COMPILER "/usr/bin/clang")
 set(CMAKE_CXX_COMPILER "/usr/bin/clang++")
 
-set(WORKING_DIR "1462")
-set(MAIN_FILE "main.cpp")
+set(WORKING_DIR "")
+set(MAIN_FILE "")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
